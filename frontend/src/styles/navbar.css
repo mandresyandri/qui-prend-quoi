@@ -1,0 +1,38 @@
+.nav {
+    width: 100%;
+    height: 90px;
+    display: flex;
+    background-color: darkblue;
+    color: white
+}
+
+.logo {
+    width: 60%;
+    margin: 23px 0px 23px 0px;
+    position: relative;
+    left: 50px;
+    text-decoration: none;
+    color: orange;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+
+.list-menu {
+    display: flex;
+    width: 60%;
+    justify-content: space-around;
+    justify-items: end;
+    margin: 36px 0px 36px 0px;
+    font-weight: bold;
+}
+
+li {
+    list-style-type: none;
+    height: 90px;
+}
+
+li:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
