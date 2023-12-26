@@ -1,0 +1,19 @@
+.bg-img {
+    background-image: url("/workspaces/qui-prend-quoi/frontend/public/img/hero.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 86.9vh;
+}
+
+
+
+.bg-text {
+    width: 100%;
+    color: white; 
+    height: 86.9vh;
+    background-color: hsl(0,0%,0%, 40%);
+}
+
+.leadText {
+    margin: 0px;
+}
