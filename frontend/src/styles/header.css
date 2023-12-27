@@ -2,24 +2,28 @@
     background-image: url("/workspaces/qui-prend-quoi/frontend/public/img/hero.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    height: 86.9vh;
+    height: 100vh;
 }
 
 .bg-text {
     width: 100%;
     color: white; 
-    height: 86.9vh;
+    height: 100vh;
     background-color: hsl(0,0%,0%, 55%);
 }
 
 .leadText {
-    margin: 50px 0px 40px 0px;
+    margin: 80px 0px 30px 0px;
     font-size: 1.25rem;
     font-weight: bold;
 }
 
+.bottomText {
+    margin-top: 40px;
+}
+
 .h1Text {
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 
 .headingText, .Typewriter {
@@ -29,7 +33,7 @@
 }
 
 .Typewriter {
-    color : orange;
+    color : #739072;
 }
 
 .textContent {
@@ -37,5 +41,5 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 86.9vh;
+    height: 100vh;
 }

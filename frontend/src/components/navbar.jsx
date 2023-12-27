@@ -5,9 +5,21 @@ const Navbar = () => {
         <nav className="nav">
             <a href="/" className="logo">Qui prends quoi ?</a>
             <ul className="list-menu">
-                <li>Accueil</li>
-                <li>Comment ça marche ?</li>
-                <li>Créer une liste gratuitement</li>
+                <li>
+                    <a className="liAnchor" href="#">
+                        Accueil
+                    </a>
+                </li>
+                <li>
+                    <a className="liAnchor" href="#how">
+                        Comment ça marche ?
+                    </a>
+                </li>
+                <li>
+                    <a className="liAnchor" href="/">
+                        Créer une liste gratuitement   
+                    </a>
+                </li>
             </ul>
         </nav>
     );

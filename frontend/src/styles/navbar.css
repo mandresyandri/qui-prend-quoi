@@ -2,8 +2,10 @@
     width: 100%;
     height: 90px;
     display: flex;
-    background-color: darkblue;
-    color: white
+    background-color: #4F6F52;
+    color: white;
+    position: fixed;
+    z-index: 100;
 }
 
 .logo {
@@ -12,7 +14,7 @@
     position: relative;
     left: 50px;
     text-decoration: none;
-    color: orange;
+    color: #D2E3C8;
     font-size: 30px;
     font-weight: bold;
 }
@@ -35,4 +37,9 @@ li {
 li:hover {
     text-decoration: underline;
     cursor: pointer;
+}
+
+.liAnchor {
+    text-decoration: none;
+    color: white;
 }

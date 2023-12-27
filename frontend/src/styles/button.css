@@ -5,9 +5,10 @@
     padding: 3vh;
     
     /* Box style */
-    background-color: orange;
+    background-color: #739072;
     border-radius: 7px;
     cursor: pointer;
+    color: white;
 
     /* Text properties */
     text-transform: uppercase;
