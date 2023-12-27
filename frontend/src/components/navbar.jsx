@@ -3,7 +3,7 @@ import "../styles/navbar.css";
 const Navbar = () => {
     return (
         <nav className="nav">
-            <a href="/" className="logo">Qui prends quoi ?</a>
+            <a href="/" className="logo">Clone Qui Prend Quoi ?</a>
             <ul className="list-menu">
                 <li>
                     <a className="liAnchor" href="#">
@@ -16,7 +16,7 @@ const Navbar = () => {
                     </a>
                 </li>
                 <li>
-                    <a className="liAnchor" href="/">
+                    <a className="liAnchor" href="/"> {/* À ajouter plus tard */}
                         Créer une liste gratuitement   
                     </a>
                 </li>

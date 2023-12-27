@@ -8,9 +8,14 @@
     background-color: #739072;
     border-radius: 7px;
     cursor: pointer;
-    color: white;
+    color: #D2E3C8;
 
     /* Text properties */
     text-transform: uppercase;
     font-weight: bold;
+}
+
+.ctaButton:hover {
+    color: #D2E3C8;
+    background-color: #4F6F52;
 }

@@ -28,8 +28,13 @@
     height: 130px;
     background-color: #D2E3C8;
     padding: 2vh;
+    border-radius: 7px;
 }
 
 .boxText {
     margin: 0px;
+}
+
+.boxTitle {
+    margin-bottom: 10px;
 }
