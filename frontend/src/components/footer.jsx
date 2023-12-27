@@ -1,4 +1,5 @@
 import '../styles/footer.css';
+import BuyMeaCoffee from './buyMeaCoffee';
 
 const Footer = () => {
     // Setting the date
@@ -17,8 +18,9 @@ const Footer = () => {
                 </a> - créateur de liste collaborative en toute simplicité.
             </p>
             <a className="cofeeToDev" href="/">
-                Payez un café au développeur :)
+                Payez un café au développeur ou donner un avis :)
             </a>
+            <BuyMeaCoffee />
         </footer>
     )
 }

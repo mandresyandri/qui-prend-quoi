@@ -1,0 +1,66 @@
+.modalBuyCoffee {
+    display: block;
+    /* Box position */
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    /* Box style */
+    width: 500px;
+    height: fit-content;
+    padding: 30px;
+    background-color: #D2E3C8;
+    color: black;
+    border-radius: 12px;
+
+    /* other */
+    text-align: center;
+}
+
+.choiceButton {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.choiceButton > button {
+    height: 40px;
+    width: fit-content;
+    background-color: #4F6F52;
+    border-radius: 7px;
+    box-shadow: none;
+}
+
+.modalBuyCoffee > h2 {
+    text-transform: uppercase;
+}
+
+.modalBuyCoffee > p, h2 {
+    line-height: 1.5;
+}
+
+.choiceButtonAnchor {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.closeBtn {
+    /* Fit size */
+    height: 50px;
+    width: 50px;
+
+    /* Set position */
+    position: absolute;
+    top: 20px;
+    left: 500px;
+
+    /* style */
+    color: #4F6F52;
+}
+
+.closeBtn:hover {
+    color: #86A789;
+}
