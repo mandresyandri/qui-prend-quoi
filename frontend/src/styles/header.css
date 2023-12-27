@@ -5,15 +5,37 @@
     height: 86.9vh;
 }
 
-
-
 .bg-text {
     width: 100%;
     color: white; 
     height: 86.9vh;
-    background-color: hsl(0,0%,0%, 40%);
+    background-color: hsl(0,0%,0%, 55%);
 }
 
 .leadText {
-    margin: 0px;
+    margin: 50px 0px 40px 0px;
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.h1Text {
+    margin-bottom: 50px;
+}
+
+.headingText, .Typewriter {
+    display: inline;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.Typewriter {
+    color : orange;
+}
+
+.textContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 86.9vh;
 }

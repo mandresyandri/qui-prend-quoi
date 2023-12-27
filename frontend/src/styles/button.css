@@ -1,0 +1,15 @@
+.ctaButton {
+    /* Box button properties */
+    width: fit-content;
+    height: fit-content;
+    padding: 3vh;
+    
+    /* Box style */
+    background-color: orange;
+    border-radius: 7px;
+    cursor: pointer;
+
+    /* Text properties */
+    text-transform: uppercase;
+    font-weight: bold;
+}
