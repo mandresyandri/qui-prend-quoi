@@ -1,11 +1,11 @@
 import '../styles/footer.css';
 import BuyMeaCoffee from './buyMeaCoffee';
 
+
 const Footer = () => {
     // Setting the date
     let now = new Date();
     now = now.getFullYear();
-
     return (
         <footer>
             <p>
@@ -17,10 +17,7 @@ const Footer = () => {
                     qui-prend-quoi.com
                 </a> - créateur de liste collaborative en toute simplicité.
             </p>
-            <a className="cofeeToDev" href="/">
-                Payez un café au développeur ou donner un avis :)
-            </a>
-            <BuyMeaCoffee />
+            <BuyMeaCoffee/>
         </footer>
     )
 }

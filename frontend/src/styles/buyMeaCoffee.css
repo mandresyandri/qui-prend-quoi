@@ -24,12 +24,18 @@
     justify-content: space-around;
 }
 
-.choiceButton > button {
-    height: 40px;
+.choiceButton > .gift, .review {
     width: fit-content;
+    height: fit-content;
+    padding: 2vh;
     background-color: #4F6F52;
     border-radius: 7px;
-    box-shadow: none;
+    color:#D2E3C8;
+}
+
+.choiceButton > .gift:hover, .review:hover {
+    background-color: #86A789;
+    color:#D2E3C8;
 }
 
 .modalBuyCoffee > h2 {

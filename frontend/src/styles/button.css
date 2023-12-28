@@ -5,7 +5,8 @@
     padding: 3vh;
     
     /* Box style */
-    background-color: #739072;
+    
+    background-color: #4F6F52;
     border-radius: 7px;
     cursor: pointer;
     color: #D2E3C8;
@@ -17,5 +18,5 @@
 
 .ctaButton:hover {
     color: #D2E3C8;
-    background-color: #4F6F52;
+    background-color: #739072;
 }

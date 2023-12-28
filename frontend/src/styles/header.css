@@ -1,5 +1,5 @@
 .bg-img {
-    background-image: url("/workspaces/qui-prend-quoi/frontend/public/img/hero.jpg");
+    background-image: url("../../public/img/hero.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
