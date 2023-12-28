@@ -14,7 +14,7 @@ const BuyMeaCoffee = () => {
     return (
         <>
         <a className="cofeeToDev" onClick={openModal}>
-                Payez un café au développeur ou donner un avis :)
+                Payez un café au développeur ou donnez un avis :)
         </a>
         {/* Conditionnal for modal */}
         {

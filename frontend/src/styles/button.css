@@ -1,3 +1,5 @@
+/* ONLY FOR BUTTON */
+
 .ctaButton {
     /* Box button properties */
     width: fit-content;
@@ -5,7 +7,6 @@
     padding: 3vh;
     
     /* Box style */
-    
     background-color: #4F6F52;
     border-radius: 7px;
     cursor: pointer;
@@ -19,4 +20,94 @@
 .ctaButton:hover {
     color: #D2E3C8;
     background-color: #739072;
+}
+
+/* MODAL PART */
+.modalForm {
+    /* Box position */
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+     /* Box style */
+     width: 500px;
+     height: fit-content;
+     padding: 30px;
+     background-color: #D2E3C8;
+     color: black;
+     border-radius: 12px;
+}
+
+.modalForm > h2 {
+    margin-top: 0px;
+    margin-bottom: 15px;
+}
+
+.boxInfo {
+    width: 477px;
+    height: fit-content;
+    background-color: white;
+    padding: 2vh;
+    margin: 15px 0px 0px 0px;
+    border-radius: 12px;
+    color: black;
+}
+
+.formText {
+    font-size: 2.8vh;
+}
+
+.listName, .listDescription {
+    display: flex;
+    flex-direction: column;
+}
+
+.listName > input {
+    background-color: white;
+    height: 50px;
+    font-size: 2vh;
+    border: 1px;
+    border-radius: 7px;
+    height: fit-content;
+    padding: 10px;
+    color: black;
+}
+
+.listDescription > textarea {
+    background-color: white;
+    resize: none;
+    height: 80px;
+    font-size: 2vh;
+    border-radius: 7px;
+    border: 1px;
+    padding: 10px;
+    color: black;
+}
+
+form > div, span, input, textarea {
+    margin-top: 10px;
+}
+
+.formText {
+    font-size: 2.3vh;
+}
+
+#submit {
+    margin-top: 7px 15px 7px 15px;
+    height: fit-content;
+    width: fit-content;
+    padding: 10px;
+    text-transform: uppercase;
+    position: relative;
+    left: 85%;
+    background-color: #4F6F52;
+    color: white;
+    border: 0px;
+    border-radius: 7px;
+}
+
+#submit:hover {
+    cursor: pointer;
+    background-color: #86A789;
 }

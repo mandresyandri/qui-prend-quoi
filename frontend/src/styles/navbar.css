@@ -20,18 +20,21 @@
 }
 
 
-.list-menu {
+.list-menu{
     display: flex;
     width: 60%;
     justify-content: space-around;
     justify-items: end;
     margin: 36px 0px 36px 0px;
-    font-weight: bold;
-    text-transform: uppercase;
 }
 
 li {
     list-style-type: none;
+}
+
+li> a {
+    text-transform: uppercase;
+    font-weight: bold;
 }
 
 li:hover {
